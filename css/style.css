@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+  --color-green:#006027;
+}
+.card{
+  margin: auto;
+  margin-bottom: 20px;
+}
+body{
+  overflow-x: hidden;  
+}
+img{
+  margin: auto;
+  width: 100%;
+  display: block;
+}
+  .heading{
+    color: var(--color-green);
+  }
+  .judul{
+    margin-top:30px ;
+    text-align: center;
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 30px 0;
+    position: relative; 
+}
+  .judul h2{
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+
+    z-index: 2;
+    color: var(--color-green);
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+  .judul span{
+    position: absolute;
+    top: 46px;
+    color: var(--color-green);
+    opacity: 0.1;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    font-weight: 700;
+    font-size: 56px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    line-height: 0.2;
+
+  }
+/* NAVBAR */
+nav{
+  box-shadow: 3px 2px 5px black;
+}
+.nav-item a{
+  margin-left: 80px;
+  color: white;
+  font-size: 15px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+}
+
+/* HOME */
+  .text{
+    font-size: 20px;
+    color: white;
+    padding-top: 20rem;
+    margin-left: 8rem;
+  }
+  .banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../img/1704183184659.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+/* PRICE/SERVICE */
+.pricess{
+margin-top: -190px;
+margin-bottom: 20rem;
+padding-bottom: 250px;
+background-color: var(--color-green);
+}
+.card-body ul{
+  margin-top: 10%;
+}
+/* CONTACT */
+.map{
+    margin-left:15rem;
+}
+iframe{
+    width: 84%;
+    margin-left: -2rem;
+    height: 20rem;
+
+}
+/* FOOTER */
+#poi a{
+  text-decoration: none;
+}
+footer p{
+  font-size: 15px;
+}
+
+@media (max-width:768px) {
+  #about{
+    padding-bottom: 5rem;
+  }
+  #about img{
+    width: 70%;
+  }
+  .pricess svg{
+    margin-top: -6rem;
+  }
+  iframe{
+    margin-left: -10rem;
+    width: 135%;
+  }
+  .banner{
+    background-position: center;
+    text-align: center;
+  }
+  .text{
+    margin: auto;
+  }
+}
